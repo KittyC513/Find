@@ -3938,6 +3938,7 @@ GameObject:
   - component: {fileID: 483186832}
   - component: {fileID: 483186834}
   - component: {fileID: 483186833}
+  - component: {fileID: 483186835}
   m_Layer: 0
   m_Name: FlowChart
   m_TagString: Untagged
@@ -4046,7 +4047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -4154.6494, y: -1336.6604}
+  scrollPos: {x: -1082.6348, y: -2097.2913}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 532
@@ -4057,8 +4058,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 483185565}
+  selectedCommands:
+  - {fileID: 483185562}
   variables:
   - {fileID: 483185354}
   - {fileID: 483185359}
@@ -14796,7 +14799,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1593.5784
-    y: 1875.8732
+    y: 1876.904
     width: 131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14833,7 +14836,7 @@ MonoBehaviour:
     no fun."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15900,7 +15903,7 @@ MonoBehaviour:
     at me\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15927,7 +15930,7 @@ MonoBehaviour:
   storyText: Then wherever I walk, he just follows.
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15954,7 +15957,7 @@ MonoBehaviour:
   storyText: "But as long as I enter the apartment, he\r disappeared\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15981,7 +15984,7 @@ MonoBehaviour:
   storyText: "I, I think I'm being followed by a man\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16139,7 +16142,7 @@ MonoBehaviour:
     to see if he uses\r another elevator to follow me\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16224,7 +16227,7 @@ MonoBehaviour:
   storyText: "What? 911!  they only come if someone points a gun at your face\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16657,7 +16660,7 @@ MonoBehaviour:
   storyText: "How weird is he?\r"
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16712,7 +16715,7 @@ MonoBehaviour:
   storyText: Like what?
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16740,7 +16743,7 @@ MonoBehaviour:
     I am."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16791,7 +16794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1595.0338
+    x: 1594.0338
     y: 2372.1384
     width: 228
     height: 40
@@ -16886,7 +16889,7 @@ MonoBehaviour:
   storyText: But nothing, just my elevator moves.
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16990,7 +16993,7 @@ MonoBehaviour:
     with this guy\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17017,7 +17020,7 @@ MonoBehaviour:
   storyText: That's a real thing.
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17045,7 +17048,7 @@ MonoBehaviour:
     the kids inside\r bullying each other and nobody was help\r that\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17073,7 +17076,7 @@ MonoBehaviour:
     for years\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17101,7 +17104,7 @@ MonoBehaviour:
     another day he\r\ndisappeared, the orphanage closed since\r then\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17236,7 +17239,7 @@ MonoBehaviour:
   storyText: "So what's the story\r?"
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17409,7 +17412,7 @@ MonoBehaviour:
     is a burned body, and the police find the\r lower angle of the stabbing.  "
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17613,7 +17616,7 @@ MonoBehaviour:
     where I live, but the\r best way is to leave this city\r."
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17637,7 +17640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1679.8889
+    x: 1680.8889
     y: 2853.4067
     width: 240
     height: 40
@@ -21419,7 +21422,7 @@ MonoBehaviour:
   itemId: 508
   blockName: Day3
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 483186835}
   commandList:
   - {fileID: 483186551}
   - {fileID: 483185704}
@@ -24395,7 +24398,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 742784088}
+  toPosition: {fileID: 1959481325}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -46034,7 +46037,7 @@ MonoBehaviour:
   storyText: 'So  it''s reasonable to suspect their kid did the miserable crime. '
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46601,7 +46604,7 @@ MonoBehaviour:
   storyText: ... alright, you should be careful too. bye...
   description: 
   character: {fileID: 1480307153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -57179,6 +57182,21 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &483186835
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483185150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 483185707}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &497327874
 GameObject:
   m_ObjectHideFlags: 0
@@ -60252,7 +60270,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.300027, y: 0}
+  m_AnchoredPosition: {x: 0.000039100647, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1096967568
@@ -62125,7 +62143,7 @@ MonoBehaviour:
   portraits:
   - {fileID: 21300000, guid: 43763f5ffa68d804daf19aeb171d126d, type: 3}
   - {fileID: 21300000, guid: cf6a2dcc610be68448ad65bd051c606f, type: 3}
-  portraitsFace: 0
+  portraitsFace: 1
   setSayDialog: {fileID: 1628951796}
   description: 
 --- !u!4 &1480307154
@@ -63584,8 +63602,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776984727}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -113.1, y: -13.931143, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -113.038, y: -13.931143, z: 0}
+  m_LocalScale: {x: 1.0368742, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
