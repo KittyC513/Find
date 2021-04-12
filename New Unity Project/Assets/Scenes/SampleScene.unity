@@ -2617,6 +2617,7 @@ GameObject:
   - component: {fileID: 483186262}
   - component: {fileID: 483186261}
   - component: {fileID: 483186254}
+  - component: {fileID: 483186265}
   m_Layer: 0
   m_Name: FlowChart
   m_TagString: Untagged
@@ -2700,6 +2701,7 @@ MonoBehaviour:
   - {fileID: 483185170}
   - {fileID: 483185173}
   - {fileID: 483186247}
+  - {fileID: 483186265}
   - {fileID: 483185163}
   - {fileID: 483186249}
   - {fileID: 483185162}
@@ -2723,7 +2725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 919.1115, y: 213.81255}
+  scrollPos: {x: 926.1115, y: 145.81255}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 530
@@ -2737,7 +2739,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 483185152}
   selectedCommands:
-  - {fileID: 483185155}
+  - {fileID: 483185156}
   variables:
   - {fileID: 483185354}
   - {fileID: 483185359}
@@ -2797,7 +2799,7 @@ MonoBehaviour:
   targetView: {fileID: 456487468}
   waitUntilFinished: 1
   targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
+  orthoSizeTweenType: 0
   posTweenType: 4
   rotTweenType: 4
 --- !u!114 &483185156
@@ -3189,7 +3191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1179
   indentLevel: 0
-  duration: 0.3
+  duration: 0
   targetView: {fileID: 675154551}
   waitUntilFinished: 1
   targetCamera: {fileID: 0}
@@ -40434,11 +40436,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1175
   indentLevel: 0
-  duration: 0.3
+  duration: 0
   targetView: {fileID: 1622504674}
   waitUntilFinished: 1
   targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
+  orthoSizeTweenType: 0
   posTweenType: 4
   rotTweenType: 4
 --- !u!114 &483186249
@@ -40473,7 +40475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1173
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 96f60fdd00428a047a79a02540ad85b0, type: 3}
+  musicClip: {fileID: 8300000, guid: d3d9593f34b19334fbc09e6fdf6d31d5, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -40533,7 +40535,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &483186254
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40670,7 +40672,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &483186261
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40684,7 +40686,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 0
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &483186262
 MonoBehaviour:
@@ -40748,6 +40750,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1628951796}
+--- !u!114 &483186265
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483185150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1198
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &513989196
 GameObject:
   m_ObjectHideFlags: 0
